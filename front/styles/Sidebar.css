@@ -1,0 +1,44 @@
+.sidebar {
+    background-color: #f5f5f5;
+    width: 3%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    display:inline-block
+  }
+  
+  .sidebar-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-list li {
+    flex-basis: 23%;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-list li a {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar-list li a:hover {
+    background-color: #ddd;
+  }
+  
+  .sidebar-list li a svg {
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  

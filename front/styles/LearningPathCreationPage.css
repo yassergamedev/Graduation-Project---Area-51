@@ -1,0 +1,103 @@
+.container {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005ae6;
+}
+
+.module {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.module label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.module input[type="text"],
+.module input[type="number"] {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: calc(80% - 10px);
+}
+
+.module input[type="number"] {
+  width: 60px;
+}
+
+.module:last-child {
+  margin-bottom: 0;
+}
+
+.learning-path-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.learning-path-container h2 {
+  margin-top: 0;
+}
+
+.learning-path-container button {
+  margin-top: 10px;
+}
+
+.learning-path-container label {
+  margin-right: 10px;
+}
+
+.learning-path-container input[type="text"],
+.learning-path-container input[type="number"],
+.learning-path-container textarea,
+.learning-path-container select {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+  font-size: 1rem;
+}

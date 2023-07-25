@@ -1,0 +1,47 @@
+.Code {
+    height: 300px;
+    width:400px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+   
+
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  
+  
+  .CodeMirror-gutters {
+    background-color: #282c34 !important;
+    color: white;
+  }
+  
+  .CodeMirror-linenumber {
+    color: #abb2bf;
+    
+  }
+  
+  .cm-s-material.CodeMirror {
+    background-color: #282c34;
+    color: #abb2bf;
+  }
+  
+  button[type="submit"] {
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45b8d8;
+  }
+  

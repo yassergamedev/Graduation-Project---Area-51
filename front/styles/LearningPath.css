@@ -1,0 +1,51 @@
+.learning-path-container {
+    color: black;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .learning-path-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .learning-path-container .description {
+    margin-bottom: 10px;
+  }
+  
+  .learning-path-container .learning-points {
+    margin-bottom: 20px;
+  }
+  
+  .learning-path-container .modules-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .learning-path-container .modules-list li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .learning-path-container .modules-list li h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .learning-path-container .modules-list li .module-description {
+    margin-bottom: 10px;
+  }
+  
+  .learning-path-container .modules-list li .module-duration {
+    margin-bottom: 0;
+  }
+  

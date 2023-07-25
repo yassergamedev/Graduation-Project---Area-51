@@ -1,0 +1,74 @@
+.tags-creator {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: white;
+    border: #4d4d4d solid 0.5px;
+    border-radius: 5%;
+  }
+  
+  .tag-input {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    flex: 1;
+    max-width: 25%;
+  }
+  
+  .tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    background-color: #4d4d4d;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .tag-domain {
+    background-color: #64b5f6;
+  }
+  
+  .tag-company {
+    background-color: #81c784;
+    
+  }
+  
+  .form-input {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    padding: 0.25rem;
+    font-size: 0.8rem;
+    
+  }
+  
+  .form-input.lp,
+  .form-input.pp,
+  .form-input.coins {
+    width: 2rem;
+    
+  }
+  
+  .submit-button {
+    background-color: #2196f3;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+   
+  }
+  
+  .submit-button:hover {
+    background-color: #1976d2;
+  }
+  

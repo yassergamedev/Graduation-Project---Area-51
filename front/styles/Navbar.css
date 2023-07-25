@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.navbar-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-toggle:focus {
+  outline: none;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+}
+
+.open .navbar-links {
+  max-height: 300px;
+}
+
+.closed .navbar-links {
+  max-height: 0;
+}
+
+.navbar-links li {
+  margin: 0.5rem 0;
+}
+
+.navbar-links li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-links li a svg {
+  margin-right: 1rem;
+}

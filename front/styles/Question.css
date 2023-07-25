@@ -1,0 +1,55 @@
+.form {
+    font-size: 14px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .possible-answers {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .possible-answer {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .possible-answer:not(:first-child) {
+    margin-left: 10px;
+  }
+  
+  .possible-answer:nth-child(even) {
+    background-color: #ebebeb;
+  }
+  
+  .possible-answer.selected {
+    background-color: #c7f1c7;
+  }
+  
+  .answer-checkbox {
+    margin-right: 10px;
+  }
+  
+  .answer-text {
+    margin-left: 5px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .possible-answer {
+      display: block;
+    }
+  
+    .possible-answer:not(:first-child) {
+      margin-left: 0;
+    }
+  }
+  

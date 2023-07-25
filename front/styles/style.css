@@ -1,0 +1,11 @@
+.color-no-submission {
+    /* Define styles for empty dates */
+    background-color: lightgray;
+    /* Add any other desired styles */
+  }
+  
+  .color-submission {
+    /* Define styles for filled dates */
+    background-color: green;
+    /* Add any other desired styles */
+  }
