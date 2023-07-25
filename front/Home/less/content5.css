@@ -1,0 +1,72 @@
+.content5-wrapper {
+  background-color: #fafafa;
+  min-height: 720px;
+}
+
+.content5-wrapper .content5 {
+  > p {
+    text-align: center;
+  }
+}
+
+.content5-wrapper .content5-img-wrapper {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.content5-wrapper .content5-img-wrapper .block {
+  margin-bottom: 24px;
+}
+
+.content5-wrapper .content5-img-wrapper .block .content5-block-content {
+  display: block;
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  color: var(--text-color); /* Replace with the actual color value */
+  transition: box-shadow 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.content5-wrapper .content5-img-wrapper .block .content5-block-content > span {
+  width: 100%;
+  height: 160px;
+  display: block;
+  background: var(--line-color); /* Replace with the actual color value */
+  padding: 5%;
+}
+
+.content5-wrapper .content5-img-wrapper .block .content5-block-content p {
+  width: 100%;
+  line-height: 30px;
+}
+
+.content5-wrapper .content5-img-wrapper .block .content5-block-content:hover p {
+  bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .content5-wrapper {
+    height: 2000px;
+    overflow: hidden;
+  }
+
+  .content5-wrapper .content5 ul li {
+    display: block;
+    width: 100%;
+    padding: 2%;
+  }
+
+  .content5-wrapper .content5 ul li span {
+    height: 168px;
+  }
+
+  .content5-wrapper .content5 ul li p {
+    position: relative;
+    bottom: 0;
+  }
+}
