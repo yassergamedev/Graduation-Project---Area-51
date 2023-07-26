@@ -67,11 +67,13 @@ Area 51 is a comprehensive competitive learning platform designed for computer s
 
 To set up Area 51 locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/area-51.git`
-2. Install the required dependencies: `npm install`
-3. Configure the database and environment settings.
-4. Start the server: `npm start`
-5. Access the platform via `http://localhost:3000` in your web browser.
+1. Clone the repository: `git clone https://github.com/your-username/Graduation-Project---Area-51.git`
+2. Open two separate Terminals, one for the Back and the Other for the front `cd Front` `cd Back`
+4. Install the required dependencies: `npm install`
+5. Configure the database and environment settings.
+6. Start the Backend server: `node App.js`
+7. Start the Frontend `npm start`
+8. Access the platform via `http://localhost:3001` in your web browser.
 
 ## Contributing
 
@@ -87,4 +89,4 @@ We would like to thank all contributors and supporters who made this project pos
 
 ---
 
-*Note: Replace `https://your-website-link.com` in the Logo section with your actual project's website link, if applicable.*
+
