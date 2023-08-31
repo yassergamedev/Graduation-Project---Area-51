@@ -1,6 +1,6 @@
 # Area 51 - Competitive Learning Platform for Computer Science
 
-[![Logo](screenshots/landingpage.PNG)]
+![Logo](screenshots/landingpage.PNG)
 
 Area 51 is a comprehensive competitive learning platform designed for computer science enthusiasts, developers, instructors, company recruiters, analysts, and administrators. It provides a robust ecosystem where various users can register, participate in coding competitions, solve coding problems, engage in learning paths, apply for job offers, and more.
 
