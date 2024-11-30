@@ -42,19 +42,19 @@ Area 51 is a comprehensive competitive learning platform designed for computer s
 
 ## Screenshots
 
-![Dashboard](screenshots/dashboard.PNG)
+![Dashboard](screenshots/d2.PNG)
 *Dashboard: Overview of platform activities and navigation.*
 
 ![Competitions](screenshots/competitions.PNG)
 *Competitions: List of ongoing and upcoming coding competitions.*
 
-![Coding Problems](screenshots/coding_problems.PNG)
+![Coding Problems](screenshots/12122.PNG)
 *Coding Problems: Extensive collection of coding challenges for developers to solve.*
 
 ![Learning Paths](screenshots/learning_paths.PNG)
 *Learning Paths: Guided paths with a sequence of resources for continuous learning.*
 
-![Job Offers](screenshots/job_offers.PNG)
+![Job Offers](screenshots/offer2.PNG)
 *Job Offers: Current job opportunities posted by company recruiters.*
 
 ![Leaderboard](screenshots/leaderboard.PNG)
